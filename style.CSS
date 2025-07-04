@@ -2,7 +2,16 @@
     margin: 0;
     padding: 0;
  } 
-
+ @media(max-width:100%){
+    .navbar{
+        padding: 10px;
+        width: 100%;
+        height: auto;
+    }
+.content{
+    background-position:center ;  
+}
+ }
 .main{
     width: 100%;
     background: url(massy.jpg.jpg);
@@ -11,13 +20,13 @@
     height: 100vh;
 }
 .navbar{
-    width: 1200px;
+    width: 100%;
     height: 75px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content:space-between;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif
     
 }
 
@@ -72,7 +81,7 @@ ul li a:hover{
     z-index: 10;
     flex-shrink: 0;
     
-    
+   
     
 }
 .sEaRcH{
@@ -219,7 +228,7 @@ ul li a:hover{
     border-radius: 10px;
     cursor: pointer;
     position: absolute;
-    margin-top: 840px;
+    margin-top: 870px;
     margin-left: 1100px;
 
 }
@@ -242,7 +251,7 @@ ul li a:hover{
     border-radius: 10px;
     cursor: pointer;
     position: absolute;
-    margin-top: 840px;
+    margin-top: 870px;
 
 }
 
@@ -378,7 +387,7 @@ ul li a:hover{
 }
 .concept .contact{
         width: 160px;
-        height: 40px;
+        height:40px;
         background: #ff4500;
         border: none;
         font-size: 18px;
@@ -386,7 +395,7 @@ ul li a:hover{
         cursor: pointer;
         position: absolute;
         left: 85%;
-        top: 150%;
+        top: 148%;
     
 }
 .concept .contact a{
@@ -409,7 +418,7 @@ ul li a:hover{
     cursor: pointer;
     position: absolute;
     left: 0%;
-    top:150%;
+    top:148%;
 
 
 }
@@ -590,6 +599,44 @@ input[type="submit"]:hover{
     margin-top: 10px;
     font-style: italic;
     color: #ff4500;
+}
+section{
+    width: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+    color: #e65c00;
+ }
+ section img{
+    width:100px;
+    height:100px;
+    /* margin-left: 50px; */
+    border-radius: 50px;
+ }
+ section .gall-1 div{
+    width:15%;
+    padding:20px;
+    /* border-color: pink; */
+    border: 2px solid #D32F2F;
+    border-radius: 7px;
+    text-align: center;
+ }
+ section .gall-1 h4{
+    margin-top:15px;
+ }
+  h2{
+padding: 50px;
+font-size: 35px;
+text-align: center;
+ }
+.gall-1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:15px;
+    /* text-align: center; */
+    /* justify-content: space-between; */
 }
 
 
